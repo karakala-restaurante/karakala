@@ -1,0 +1,7 @@
+services:
+  karakala:
+    image: php:7.4-apache-custom
+    volumes:
+      - .:/var/www/html/
+    ports:
+      - "80:80"

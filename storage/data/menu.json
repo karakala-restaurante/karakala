@@ -1,0 +1,380 @@
+{
+  "cold-first-course": [
+    {
+      "name": "Hummus",
+      "description": "Crema de garbanzos con sésamo.",
+      "type": "V",
+      "price": "7,85"
+    },
+    {
+      "name": "Mutábbal",
+      "description": "Crema de berenjena con sésamo.",
+      "type": "V",
+      "price": "8,15"
+    },
+    {
+      "name": "Muhámmara",
+      "description": "Crema de pimiento rojo y nueces.",
+      "type": "V",
+      "price": "9"
+    },
+    {
+      "name": "Baba Gannush",
+      "description": "Berenjena ahumada con granos y melaza de granada.",
+      "type": "V",
+      "price": "8,75"
+    },
+    {
+      "name": "Labne",
+      "description": "Yogur espeso con eneldo y pepino.",
+      "type": "-v-",
+      "price": "8"
+    },
+    {
+      "name": "Kusa",
+      "description": "Crema de calabacín con sésamo.",
+      "type": "V",
+      "price": "8,15"
+    }
+  ],
+  "hot-first-course": [
+    {
+      "name": "Patatas Karakala",
+      "description": "Con alioli libanés y salsa brava.",
+      "type": "-v-",
+      "price": "7,75"
+    },
+    {
+      "name": "Wara Inab",
+      "description": "Hojas de parra caseras rellenas de arroz con albahaca.",
+      "type": "",
+      "price": "8,15"
+    },
+    {
+      "name": "Kibbe",
+      "description": "Croquetas de trigo rellenas de carne y piñones.",
+      "type": "",
+      "price": "9"
+    },
+    {
+      "name": "Búrak Jubne",
+      "description": "Rollitos de hojaldre fritos con queso y menta.",
+      "type": "-v-",
+      "price": "9,5"
+    },
+    {
+      "name": "Faláfel",
+      "description": "Croquetas de garbanzos y hierbas con especias suaves.",
+      "type": "V",
+      "price": "6"
+    },
+    {
+      "name": "Fatáyer",
+      "description": "Empanadillas de acelgas -v- o carne.",
+      "type": "",
+      "price": "7,5"
+    },
+    {
+      "name": "Feta asada",
+      "description": "Con manzana y eneldo.",
+      "type": "-v-",
+      "price": "9,75"
+    },
+    {
+      "name": "Huevos Karakala",
+      "description": "Huevos estrellados con embutido armenio, perfumes de fenogreco, comino y ajo.",
+      "type": "",
+      "price": "9,5"
+    }
+  ],
+  "salads": [
+    {
+      "name": "Ensalada Chanklich",
+      "description": "De queso curado con hierbas del Monte Líbano.",
+      "type": "-v-",
+      "price": "8,75"
+    },
+    {
+      "name": "Tabbule",
+      "description": "De perejil picado, bulgur y tomate con un toque de limón.",
+      "type": "V",
+      "price": "7,75"
+    },
+    {
+      "name": "Fattush",
+      "description": "De tomate, lechuga y virutas de pan tostado crujiente con zumaque.",
+      "type": "V",
+      "price": "7,75"
+    },
+    {
+      "name": "Ensalada libanesa",
+      "description": "Con verduras frescas, limón, ajo y menta.",
+      "type": "V",
+      "price": "7,5"
+    },
+    {
+      "name": "Ensalada Karakala",
+      "description": "De verduras con crema de sésamo.",
+      "type": "V",
+      "price": "8"
+    },
+    {
+      "name": "Ensalada Ráheb",
+      "description": "De verduras con daditos de berenjena frita.",
+      "type": "V",
+      "price": "8,75"
+    }
+  ],
+  "main-courses": [
+    {
+      "name": "Miks gril",
+      "description": "Así se dice “parrillada” al este del Mediterráneo. La nuestra es para dos comensales. Con pinchos de pollo marinado (chich tauk), de cordero adobado, de ternera y de kebab de carne picada.",
+      "type": "",
+      "price": "29"
+    },
+    {
+      "name": "Pincho “Miks gril“ unidad",
+      "description": "De pollo marinado (chich tauk), de cordero adobado, de ternera o de kebab de carne picada.",
+      "type": "",
+      "price": "13,5"
+    },
+    {
+      "name": "Maklube",
+      "description": "Arroz y fideos con berenjena, calabacín, coliflor, garbanzos, albaricoques y pasas.",
+      "type": "V",
+      "price": "13"
+    },
+    {
+      "name": "Bamie",
+      "description": "Estofado de okra con tomate y un toque de cilantro. ",
+      "type": "V",
+      "price": "13"
+    },
+    {
+      "name": "Cuscús de verduras",
+      "description": "Con semola y pasas.",
+      "type": "V",
+      "price": "13"
+    },
+    {
+      "name": "Shawarma “de Jeanette”",
+      "description": "Como en casa: de cordero con especias y mollete.",
+      "type": "",
+      "price": "13,5"
+    },
+    {
+      "name": "La leche de su madre",
+      "description": "En árabe laban ummo. Estofado de cordero con yogur, servido con burgul. La leche. (Obviamente, receta de Jeanette)",
+      "type": "",
+      "price": "14"
+    },
+    {
+      "name": "Mánsaf",
+      "description": "“Un tienda de nómadas en medio del desierto, cerca de un oasis, a la hora de cenar” se dice en árabe “mansaf”. Es un hojaldre (la tienda) relleno de arroz (el desierto) con almendras, yogur (el oasis) y carne de cordero (la cena).",
+      "type": "",
+      "price": "14,5"
+    },
+    {
+      "name": "Kabab Káraz como en Alepo",
+      "description": "En Alepo, en el norte de Siria, acompañan el kebab, la carne de cordero picada, con una salsa de cerezas. Se lama kabab káraz, y el sabor agridulce de la cereza negra lo hace único.",
+      "type": "",
+      "price": "14,5"
+    },
+    {
+      "name": "Langostinos “Batrún”",
+      "description": "En Batrún, en la costa libanesa, se comen langostinos flambeados con arak, en salsa de anís estrellado.",
+      "type": "",
+      "price": "16"
+    },
+    {
+      "name": "Calamares “Biblos”",
+      "description": "En salsa con rosas de Abisinia.",
+      "type": "",
+      "price": "14"
+    },
+    {
+      "name": "Cuscús de pescado",
+      "description": "El cuscús no es sólo vegetal, en Túnez comen uno de pescado y marisco, poético, marítimo. Con salsa picante a parte.",
+      "type": "",
+      "price": "17"
+    }
+  ],
+  "desserts": [
+    {
+      "name": "Mahlabie",
+      "description": "Flan libanés.",
+      "type": "",
+      "price": "3,5"
+    },
+    {
+      "name": "Afrodita",
+      "description": "Arroz con leche con azafrán y agua de rosas.",
+      "type": "",
+      "price": "3,5"
+    },
+    {
+      "name": "Baklawa",
+      "description": "Surtido de pastitas libanesas.",
+      "type": "V",
+      "price": "4"
+    },
+    {
+      "name": "Macedonia libanesa",
+      "description": "Según frutas de temporada con jengibre y agua de rosa.",
+      "type": "V",
+      "price": "4,5"
+    },
+    {
+      "name": "Castar",
+      "description": "Crema de chocolate, galleta y vainilla.",
+      "type": "",
+      "price": "3,5"
+    },
+    {
+      "name": "Té",
+      "description": "Té verde menta fresca.",
+      "type": "",
+      "price": "1,5"
+    },
+    {
+      "name": "Café libanés",
+      "description": "Como en Douma.",
+      "type": "",
+      "price": "1,6"
+    }
+  ],
+  "daily-menu-first-courses": [
+    {
+      "name": "Hummus",
+      "description": "Crema de garbanzos con sésamo.",
+      "type": "V",
+      "price": ""
+    },
+    {
+      "name": "Falafel",
+      "description": "Croquetas de garbanzos y hierbas con especias suaves.",
+      "type": "V",
+      "price": ""
+    },
+    {
+      "name": "Karakala",
+      "description": "Ensalada mixta aliñada con zumo fresco de limón y crema de sésamo.",
+      "type": "V",
+      "price": ""
+    },
+    {
+      "name": "Baba gannush",
+      "description": "Berenjena ahumada con granos y melaza de granada.",
+      "type": "V",
+      "price": ""
+    },
+    {
+      "name": "Arayes de carne",
+      "description": "Pan de pita a la plancha relleno de ternera adobada con especias.",
+      "type": "",
+      "price": ""
+    }
+  ],
+  "daily-menu-main-courses": [
+    {
+      "name": "Fuego de Baal",
+      "description": "Estofado de ternera con aji, ciruelas y pasas servido con arroz. Un poco picante.",
+      "type": "",
+      "price": ""
+    },
+    {
+      "name": "Cuscus de verduras",
+      "description": "Cuscus servido con caldo y verduras.",
+      "type": "",
+      "price": ""
+    },
+    {
+      "name": "Bamye",
+      "description": "Estofado de okra en salsa de tomate con cilantro servido con arroz libanés.",
+      "type": "",
+      "price": ""
+    },
+    {
+      "name": "Chich tauk",
+      "description": "Pincho de pollo marinado en zumo de limón a la brasa servido con ensalada.",
+      "type": "",
+      "price": ""
+    },
+    {
+      "name": "Shawarma Karakala",
+      "description": "Carne de cordero y ternera en adobo de vino tinto al estilo casero.",
+      "type": "",
+      "price": ""
+    }
+  ],
+  "weekend-menu-first-courses": [
+    {
+      "name": "Hummus",
+      "description": "Crema de garbanzos con sésamo.",
+      "type": "V",
+      "price": ""
+    },
+    {
+      "name": "Falafel",
+      "description": "Croquetas de garbanzos y hierbas con especias suaves.",
+      "type": "V",
+      "price": ""
+    },
+    {
+      "name": "Ensalada Fattush",
+      "description": "Ensalada mixta con virutas de pan frito, aliñada con menta y zumaque.",
+      "type": "V",
+      "price": ""
+    },
+    {
+      "name": "Baba gannush",
+      "description": "Berenjena ahumada con granos y melaza de granada.",
+      "type": "V",
+      "price": ""
+    },
+    {
+      "name": "Warak inab",
+      "description": "Hojas de parra caseras rellenas de arroz con albahaca.",
+      "type": "V",
+      "price": ""
+    },
+    {
+      "name": "Ensalada Libanesa",
+      "description": "Ensalada mixta cortada fina con zumo de limón, ajo y menta.",
+      "type": "",
+      "price": ""
+    }
+  ],
+  "weekend-menu-main-courses": [
+    {
+      "name": "Fuego de Baal",
+      "description": "Estofado de ternera con aji, ciruelas y pasas servido con arroz. Un poco picante.",
+      "type": "",
+      "price": ""
+    },
+    {
+      "name": "Chich tauk",
+      "description": "Pincho de pollo marinado en zumo de limón a la brasa servido con ensalada.",
+      "type": "",
+      "price": ""
+    },
+    {
+      "name": "Shawarma Karakala",
+      "description": "Carne de cordero y ternera en adobo de vino tinto al estilo casero.",
+      "type": "",
+      "price": ""
+    },
+    {
+      "name": "Maklube",
+      "description": "Arroz y fideos con berenjena, calabacín, coliflor,  garbanzos, albaricoques y pasas.",
+      "type": "V",
+      "price": ""
+    },
+    {
+      "name": "Cuscus de pollo o verduras",
+      "description": "Cuscus servido con caldo de verduras  con o sin pollo.",
+      "type": "V",
+      "price": ""
+    }
+  ]
+}
