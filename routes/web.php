@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BookController;
 
 /*
 |--------------------------------------------------------------------------
@@ -47,10 +48,10 @@ Route::get('/reserva', function () {
     return view('booking');
 });
 
-Route::post('/reserva', [
-    'uses' => 'BookController@send',
-    'as' => 'reserva'
-]);
+Route::post(
+    '/reserva',
+    [BookController::class, 'send']
+)->name('reserva');
 
 Route::get('/es/reserva', function () {
     return redirect('/reserva');
@@ -62,10 +63,10 @@ Route::get('/ca/reserva', function () {
     return view('booking');
 });
 
-Route::post('/ca/reserva', [
-    'uses' => 'BookController@send',
-    'as' => 'ca.reserva'
-]);
+Route::post(
+    '/ca/reserva',
+    [BookController::class, 'send']
+)->name('ca.reserva');
 
 Route::get('/en/booking', function () {
     App::setLocale('en');

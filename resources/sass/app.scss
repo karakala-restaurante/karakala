@@ -186,6 +186,14 @@ a:hover {
   font-size: 1.2rem;
 }
 
+.form label {
+  display: none;
+}
+
+.grecaptcha-badge {
+  display: none !important;
+}
+
 @media (min-width: 576px) {
   .logo_karakala {
     height: 55px;

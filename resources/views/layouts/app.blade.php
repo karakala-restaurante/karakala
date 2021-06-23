@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
     <title>Restaurante Karakala @yield('title')</title>
 
@@ -16,6 +17,7 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+    {!! RecaptchaV3::initJs() !!}
 </head>
 <body>
 <nav class="navbar fixed-top navbar-expand-md navbar-light" id="navApp">
@@ -102,11 +104,5 @@
 <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjDBG0-D-KzRZ4cTAKRztTf7KJsMrNSeI&callback=initMap">
 </script>
-<script src="https://www.google.com/recaptcha/api.js"></script>
 <script src="/js/map.js"></script>
-<script>
-    function onSubmit(token) {
-        document.getElementById("booking").submit();
-    }
-</script>
 </html>

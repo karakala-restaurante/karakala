@@ -1875,18 +1875,6 @@ var navApp = new vue__WEBPACK_IMPORTED_MODULE_0__.default({
  * Scroll navigation
  */
 
-$(document).on('click', '.scroll-link', function (e) {
-  e.preventDefault();
-  $('#navbar_toggler_control').click();
-  var href = $(this).attr('href');
-  console.log(href);
-  var top = $(href).offset().top;
-  var body = $("html, body");
-  body.stop().animate({
-    scrollTop: top - 90
-  }, 500, 'swing', function () {});
-});
-
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
