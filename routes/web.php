@@ -14,85 +14,88 @@ use App\Http\Controllers\BookController;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::middleware('cache.headers:public;max_age=86400;etag')->group(function () {
 
-Route::get('/es', function () {
-    return redirect('/');
-});
+    Route::get('/', function () {
+        return view('home');
+    });
 
-Route::get('/ca', function () {
-    App::setLocale('ca');
+    Route::get('/es', function () {
+        return redirect('/');
+    });
 
-    return view('home');
-});
+    Route::get('/ca', function () {
+        App::setLocale('ca');
 
-Route::get('/en', function () {
-    App::setLocale('en');
+        return view('home');
+    });
 
-    return view('home');
-});
+    Route::get('/en', function () {
+        App::setLocale('en');
 
-Route::get('/fr', function () {
-    App::setLocale('fr');
+        return view('home');
+    });
 
-    return view('home');
-});
+    Route::get('/fr', function () {
+        App::setLocale('fr');
 
-/**
- * Booking routes
- */
+        return view('home');
+    });
 
-Route::get('/reserva', function () {
-    return view('booking');
-});
+    /**
+     * Booking routes
+     */
 
-Route::post(
-    '/reserva',
-    [BookController::class, 'send']
-)->name('reserva');
+    Route::get('/reserva', function () {
+        return view('booking');
+    });
 
-Route::get('/es/reserva', function () {
-    return redirect('/reserva');
-});
+    Route::post(
+        '/reserva',
+        [BookController::class, 'send']
+    )->name('reserva');
 
-Route::get('/ca/reserva', function () {
-    App::setLocale('ca');
+    Route::get('/es/reserva', function () {
+        return redirect('/reserva');
+    });
 
-    return view('booking');
-});
+    Route::get('/ca/reserva', function () {
+        App::setLocale('ca');
 
-Route::post(
-    '/ca/reserva',
-    [BookController::class, 'send']
-)->name('ca.reserva');
+        return view('booking');
+    });
 
-Route::get('/en/booking', function () {
-    App::setLocale('en');
+    Route::post(
+        '/ca/reserva',
+        [BookController::class, 'send']
+    )->name('ca.reserva');
 
-    return view('booking');
-});
+    Route::get('/en/booking', function () {
+        App::setLocale('en');
 
-Route::get('/fr/reservation', function () {
-    App::setLocale('fr');
+        return view('booking');
+    });
 
-    return view('booking');
-});
+    Route::get('/fr/reservation', function () {
+        App::setLocale('fr');
 
-Route::post('book/send', [
-    'uses' => 'BookController@send',
-    'as' => 'book.send',
-]);
+        return view('booking');
+    });
 
-/**
- * Menu routes
- */
+    Route::post('book/send', [
+        'uses' => 'BookController@send',
+        'as' => 'book.send',
+    ]);
 
-Route::get('/carta', function () {
-    return view('menu');
-});
+    /**
+     * Menu routes
+     */
 
-Route::get('/ca/carta', function () {
-    return view('menu');
+    Route::get('/carta', function () {
+        return view('menu');
+    });
+
+    Route::get('/ca/carta', function () {
+        return view('menu');
+    });
 });
