@@ -8,7 +8,7 @@
                 <div class="col">
                     <div class="section_cover_text">
                         <h2 class="section_cover_prehead text-wine">@lang('content.cover.prehead')</h2>
-                        <h1 class="section_cover_head">Karakala</h1>
+                        <h1 class="section_cover_head">Karakala.</h1>
                         <h2 class="section_cover_posthead text-wine">@lang('content.cover.posthead')</h2>
                     </div>
                     <p class="section_cover_button text-center"><a href="@lang('navbar.booking.href')"><button type="button" class="btn btn-outline-wine">@lang('navbar.booking')</button></a></p>
