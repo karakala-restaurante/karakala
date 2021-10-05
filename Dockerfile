@@ -8,3 +8,6 @@ RUN sed -ri -e 's!/var/www/!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/apache2.conf
 # enable apache modules
 RUN a2enmod rewrite
 RUN a2enmod ssl
+
+# install ext
+RUN docker-php-ext-install pcntl
